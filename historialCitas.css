@@ -1,0 +1,53 @@
+.contenedor1, .contenedor2, .contenedor3, .detalles, .c3-2{
+    display:flex;
+}
+
+.c1-1, .c1-2{
+    width:50%;
+    background-color: blue;
+    color:white;
+}
+
+.contenedor1, .contenedor2{
+    height:20px;
+    width:100%;
+    background-color:#d3d3d3;
+    font-size:20px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    padding-left:10px;
+
+}
+
+.contenedor3{
+    height:180px;
+    width:80%;
+    background-color: blue;
+    padding: 20px 20px;
+    margin:auto;
+    
+}
+.c3-1{
+    height:150px;
+    width: 25%;
+    background-color: red;
+    padding: 20px 20px;
+}
+.c3-2{
+    height:150px;
+    width: 75%;
+    background-color: greenyellow;
+    padding: 20px 20px;
+}
+.detalles{
+    padding:40px 10px;
+}
+.bt1, .bt2{
+    padding:10px;
+    font-size:20px;
+}
+.detalles{
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: yellowgreen;
+}

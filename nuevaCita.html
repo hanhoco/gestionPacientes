@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <link rel="stylesheet" href="nuevaCita.css">
+        </header>
+        <main>
+            
+            <form action="" method="post">
+                <h2>Nueva Cita</h2>
+
+                <!-- Fecha de cita -->
+
+                <label for="fechaCita"> Fecha deseada </label>
+                <input id="fechaCita" type="date" name="fechaCita"> </input>
+
+                <!-- Especialidad, selecccion de una de n opciones de una lista desplegable-->
+                <label for="especialidad">Especialidad</label>
+                <select id="especialidad" name="especialidad">
+                    <option value="esp1">especialidad1</option>
+                    <option value="esp2">especialidad2</option>
+                    <option value="esp3">especialidad3</option>
+                    <option value="esp4">especialidad4</option>
+                    <option value="esp5">especialidad5</option>
+                    <option value="esp6">especialidad6</option>
+                </select>
+
+
+                <!-- Sede, selecccion de una de n opciones de una lista desplegable -->
+                <label for="sede">Sede</label>
+                <select id="sede" name="sede">
+                    <option value="norte">norte</option>
+                    <option value="sur">sur</option>
+                    <option value="oriente">oriente</option>
+                    <option value="occidente">occidente</option>
+                    <option value="noroccidente">noroccidente</option>
+                    <option value="suroccidente">suroccidente</option>
+                </select>
+          
+               <!-- Medico, selecccion de una de n opciones de una lista desplegable -->
+               <label for="medico">Medico</label>
+                <select id="medico" name="medico">
+                    <option value="med1">med1</option>
+                    <option value="med2">med2</option>
+                    <option value="med3">med3</option>
+                    <option value="med4">med4</option>
+                    <option value="med5">med5</option>
+                    <option value="med6">med6</option>
+                </select>
+
+               <!-- Rango Horario, selecccion de una de n opciones de una lista desplegable -->
+               <label for="horario">Horario</label>
+                <select id="horario" name="horario">
+                    <option value="hora1">06:00 - 06:20 AM</option>
+                    <option value="hora2">06:20 - 06:40 AM</option>
+                    <option value="hora3">06:40 - 07:00 AM</option>
+                    <option value="hora4">07:00 - 07:20 AM </option>
+                    <option value="hora5">07:20 - 07:40 AM</option>
+                    <option value="hora6">07:40 - 08:00 AM</option>
+
+                    <option value="hora7">08:00 - 08:20 AM</option>
+                    <option value="hora8">08:20 - 08:40 AM</option>
+                    <option value="hora9">08:40 - 09:00 AM</option>
+                    <option value="hora10">09:00 - 09:20 AM </option>
+                    <option value="hora11">09:20 - 09:40 AM</option>
+                    <option value="hora12">09:40 - 10:00 AM</option>
+
+                    <option value="hora13">10:00 - 10:20 AM</option>
+                    <option value="hora14">10:20 - 10:40 AM</option>
+                    <option value="hora15">10:40 - 11:00 AM</option>
+                    <option value="hora16">11:00 - 11:20 AM </option>
+                    <option value="hora17">11:20 - 11:40 AM</option>
+                    <option value="hora18">11:40 - 12:00 MD</option>
+
+                    <option value="hora19">12:00 - 12:20 MD</option>
+                    <option value="hora20">12:20 - 12:40 MD</option>
+                    <option value="hora21">12:40 - 01:00 PM</option>
+                    <option value="hora22">01:00 - 01:20 AM </option>
+                    <option value="hora23">01:20 - 01:40 AM</option>
+                    <option value="hora24">01:40 - 02:00 PM</option>
+                </select>
+
+                <button>CONSULTAR AGENDA</button>
+
+            </form>
+            <div class="feedback">
+                <label for="consultaAgenda">Resultados consulta</label>
+                <textarea id="consultaAgenda" name="consultaAgenda" rows="10" cols="50"> Resultados de consulta de agenda </textarea>
+            </div>
+
+
+        </main>
+
+        <footer>
+
+
+        </footer>
+
+
+</body>
+
+
+</html>
