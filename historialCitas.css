@@ -4,8 +4,13 @@
 
 .c1-1, .c1-2{
     width:50%;
-    background-color: blue;
-    color:white;
+    background-color: #FFE699;
+    color:blue;
+    font-size: 20px;
+    margin-left:20px;
+}
+.c1-1{
+    margin-left:20px;
 }
 
 .contenedor1, .contenedor2{
@@ -19,10 +24,14 @@
 
 }
 
+.contenedor2{
+    background-color:white;
+}
+
 .contenedor3{
     height:180px;
     width:80%;
-    background-color: blue;
+    background-color:#04AA6D;
     padding: 20px 20px;
     margin:auto;
     
@@ -30,7 +39,7 @@
 .c3-1{
     height:150px;
     width: 25%;
-    background-color: red;
+    background-color: white;
     padding: 20px 20px;
 }
 .c3-2{
@@ -49,5 +58,9 @@
 .detalles{
     padding-left: 35%;
     padding-right: 35%;
-    background-color: yellowgreen;
+    background-color: white;
+}
+.contenedor2{
+    padding-left: 30%;
+    padding-right: 30%;
 }
